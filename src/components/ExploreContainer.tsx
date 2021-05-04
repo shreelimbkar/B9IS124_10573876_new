@@ -1,12 +1,12 @@
-import './ExploreContainer.css';
+import "./ExploreContainer.css";
 
-interface ContainerProps { }
+interface ContainerProps {}
 
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
-      <strong>Ready to create an app?</strong>
-      <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <strong>Welcome to My Personal Insta App</strong>
+      <p>This app will manage my Personal image gallery.</p>
     </div>
   );
 };
